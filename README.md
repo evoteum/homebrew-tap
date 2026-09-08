@@ -94,13 +94,42 @@ Install and update our really useful tools with Homebrew
 [//]: # (OPTIONAL IF documentation repo)
 [//]: # (ELSE REQUIRED)
 
+Add the tap once, then install any of the tools listed under [Usage](#usage):
 
+```bash
+brew tap evoteum/tap
+```
+
+You can also install a tool directly, and Homebrew will add the tap for you:
+
+```bash
+brew install evoteum/tap/reviewreminder
+```
 
 ## Usage
 [//]: # (REQUIRED)
 [//]: # (Explain what the thing does. Use screenshots and/or videos.)
 
+This tap packages our tools as standard Homebrew formulae, so you install and
+upgrade them like any other package.
 
+Available tools:
+
+| Formula | Command | Description |
+| ------- | ------- | ----------- |
+| [`reviewreminder`](https://github.com/evoteum/reviewreminder) | `rr` | Remind colleagues to review your code |
+
+Install one:
+
+```bash
+brew install reviewreminder
+```
+
+Upgrade everything you have installed, including tools from this tap:
+
+```bash
+brew upgrade
+```
 
 [//]: # (Extra sections)
 [//]: # (OPTIONAL)
